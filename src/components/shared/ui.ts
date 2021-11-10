@@ -7,7 +7,6 @@ export const Container = styled.div`
 
 export const UserTable = styled.table`
   width: 100%;
-  //border-collapse: collapse;
   overflow-x: auto;
 
   border: 1px solid #000;
@@ -37,3 +36,15 @@ export const UserTable = styled.table`
     cursor: initial;
   }
 `;
+
+export const PostHeader = styled.div`
+  font-size: 2rem;
+  margin: 50px 15px 15px 15px;
+`;
+
+export const PostHeaderUser = styled.div`
+  color: #2d2a48;
+  font-weight: bold;
+  display: inline-block;
+`;
+

@@ -26,7 +26,7 @@ export type UserProps = {
   phone: string;
   website: string;
   company: CompanyProps;
-  onClickUser: (userId: number) => void;
+  onClickUser: (userId: number, name: string) => void;
 };
 
 const User = ({
@@ -41,7 +41,7 @@ const User = ({
   onClickUser,
 }: UserProps) => {
   return (
-    <tr onClick={() => onClickUser(id)}>
+    <tr onClick={() => onClickUser(id, name)}>
       <td> {id}</td>
       <td> {name}</td>
       <td> {username}</td>
