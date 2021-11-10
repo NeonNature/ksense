@@ -1,0 +1,222 @@
+.admin-container {
+    background-color: #F2F4F8;
+    min-height: 100%;
+    padding: 5rem 1.813rem 1.25rem 1.813rem;
+}
+
+.admin-icon-report {
+    float: right;
+    cursor: pointer;
+}
+
+.admin-title {
+    color: #2D2A48;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1.563rem 0;
+}
+
+.admin-lot-wrap {
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (min-width: 1281px) {
+    .admin-lot-wrap {
+        max-width: 60.5rem;
+    }
+}
+
+.admin-legend-wrap {
+    text-align: left;
+    color: #13214E;
+    padding: 0.625rem;
+    max-width: 53.5rem;
+    margin: 0 auto;
+
+    .shared-legend-title {
+        font-size: 1.25rem;
+    }
+    
+    .shared-legend-caption {
+        font-size: 1.125rem;
+    }
+
+    .shared-patch-caption-shortgap {
+        margin-right: 3.375rem;
+    }
+
+    .shared-patch-occupied,
+    .shared-patch-shifting,
+    .shared-patch-avail,
+    .shared-patch-completed,
+    .shared-patch-checking,
+    .shared-patch-pending {
+        margin-right: 0.5rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    .admin-legend-wrap {
+        padding: 0.625rem 0 0.625rem 4.3rem;
+        max-width: 64.5rem;
+    }
+
+    .admin-container {
+        padding-right: 0;
+    }
+
+    .admin-icon-report {
+        padding-right: 1.813rem;
+    }
+}
+
+@media (min-width: 1100px) {
+    .admin-legend-wrap {
+        padding: 0.625rem 0.625rem 0.625rem 8.3rem;
+        max-width: 68.5rem;
+    }
+}
+
+.admin-lot-content-wrap {
+    font-size: 1.25rem;
+}
+
+.admin-reports-wrap {
+    width: 43.75rem;
+    height: 25rem;
+    background-color: #FFFFFF;
+    margin: 7.938rem auto 0 auto;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.admin-reports-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    color: #13214E;
+}
+
+.admin-select-wrap {
+    display: inline-block;
+    width: 25.625rem;
+    height: 3.438rem;
+    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
+    background: url('../../../images/icons/drop.svg') no-repeat right white;
+    border-radius: 0.625rem;
+    display: inline-block;
+    position: relative;
+    background-color: #F2F4F8;
+}
+  
+.admin-select {
+    background: transparent;
+    -webkit-appearance: none;
+    width: 26.625rem;
+    height: 3.438rem;
+    padding-left: 1rem;
+
+    font-size: 1.563rem;
+    border: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    outline: 0;
+}
+
+.admin-report-wrap {
+    padding: 2rem 5.313rem;
+}
+
+.admin-label-report {
+    display: inline-block;
+    color: #13214E;
+    font-size: 1.563rem;
+    height: 3.438rem;
+    vertical-align: bottom;
+    margin-right: 2.188rem;
+}
+
+.admin-label-date {
+    display: inline-block;
+    color: #13214E;
+    font-size: 1.563rem;
+    height: 3.438rem;
+    line-height: 3.438rem;
+    vertical-align: bottom;
+    margin-right: 2.188rem;
+}
+
+.admin-label-to {
+    display: inline-block;
+    color: #13214E;
+    font-size: 1.563rem;
+    line-height: 3.438rem;
+    height: 3.438rem;
+    vertical-align: bottom;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.admin-first-wrap {
+    margin-bottom: 1rem;
+}
+
+.admin-select-totalwrap {
+    display: inline-block;
+    width: 26.625rem;
+    height: 3.438rem;
+    border-radius: 0.625rem;
+    background-color: #F2F4F8;
+}
+
+.admin-calendar-input {
+    background-color: #F2F4F8;
+    border: 0;
+    border-radius: 0.625rem;
+    font-size: 1.563rem;
+    color: #13214E;
+    outline: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 3.438rem;
+    width: 11.25rem;
+}
+
+.admin-calendar-wrap {
+    white-space: nowrap;
+    display: inline-block;
+    height: 3.438rem;
+    width: 11.25rem;
+    background-color: #F2F4F8;
+    border-radius: 0.625rem;
+}
+
+.admin-calendar-icon {
+    cursor: pointer;
+    position: relative;
+    margin-left: -3rem;
+    margin-top: -0.5rem;
+}
+
+.admin-report-btn {
+    border: 0.125rem solid #13214E;
+    border-radius: 1.25rem;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.938rem;
+    line-height: 2.3rem;
+    width: 10rem;
+    height: 2.5rem;
+    cursor: pointer;
+    font-size: 1.563rem;
+}
+
+.admin-report-btn-wrap {
+    text-align: center;
+    margin-top: 2.688rem;
+}

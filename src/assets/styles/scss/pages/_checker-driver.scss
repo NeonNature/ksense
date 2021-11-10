@@ -1,0 +1,133 @@
+.cd-container {
+    background-color: #F2F4F8;
+    min-height: 100%;
+    padding: 5rem 0 1.25rem 0;
+}
+
+.cd-card-wrap {
+    max-width: 63.5rem;
+    margin: 4.562rem auto 0 auto;
+    text-align: center;
+}
+
+.cd-card-content-wrap {
+}
+
+%cd-card {
+    font-size: 1.25rem;
+    width: 12.25rem;
+    height: 16.375rem;
+    margin: 1.188rem;
+    padding: 1.25rem 0;
+    box-shadow: 0px 3px 6px #00000029;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.cd-card-checked {
+    @extend %cd-card;
+    background-color: #13214E;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.cd-card-unchecked {
+    @extend %cd-card;
+    background-color: #FFFFFF;
+    color: #13214E;
+    cursor: pointer;
+}
+
+.cd-card-unchecked {
+    @extend %cd-card;
+    background-color: #FFFFFF;
+    color: #13214E;
+    cursor: normal;
+}
+
+.cd-card-name {
+    font-weight: bold;
+    padding-top: 0.625rem;
+    font-size: 1.563rem;
+}
+
+.cd-card-job {
+    color: #939191;
+}
+
+.cd-card-checktxt {
+    color: #FFFFFF;
+}
+
+
+.cd-cc-container {
+    background-color: #F2F4F8;
+    min-height: 100%;
+    padding: 6.25rem 1.813rem 1.25rem 1.813rem;
+}
+
+.cd-cc-title {
+    color: #2D2A48;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.cd-others-modal {
+    
+    max-width: 59.563rem;
+
+    .modal-body {
+        background-color: #F2F4F8;
+    }
+
+    .shared-modal-header {
+        background-color: #FFFFFF;
+    }
+
+    .modal-content {
+        width: 59.563rem;
+        min-height: 25rem;
+        height: 100%;
+    }
+
+    .shared-modal-content {
+        min-height: 100%;
+        font-size: 1.563rem;
+        color: #13214E;
+        margin: 1.375rem 0;
+    }
+}
+
+.cd-others-list {
+    margin: 0 1.813rem;
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: #FFFFFF;
+    height: 9.375rem;
+    border-bottom: 0.125rem solid #E0E0E0;
+}
+
+.cs-left, .cs-right {
+    width: 50%;
+    display: inline-block;
+}
+
+.cs-left {
+    padding-right: 4rem;
+}
+
+.cs-right {
+    padding-left: 4rem;
+}
+
+.cs-left.false, .cs-right.false {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+.cs-modal-content {
+    font-size: 1.25rem;
+    color: #13214E;
+    padding: 2.625rem 1rem 2.625rem 1rem;
+    text-align: center
+}

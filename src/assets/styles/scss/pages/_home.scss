@@ -1,0 +1,40 @@
+.home-container {
+    @extend %transitionHelper;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #13214E;
+    min-height: 100%;
+}
+
+.home-time {
+    font-size: 3.75rem;
+    padding-top: 4.625rem;
+}
+
+.home-title {
+    font-size: 2.5rem;
+    padding-bottom: 6.438rem;
+}
+
+.home-card-wrap {
+    cursor: pointer;
+}
+
+.home-card-border {
+    border: 0.313em solid #5DE1EB;
+    border-radius: 50%;
+    width: 11.438rem;
+    height: 11.438rem;
+    margin: 0 auto;
+}
+
+.home-card-caption {
+    font-size: 1.875rem;
+    padding-top: 1.813rem;
+}
+
+.home-card-img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

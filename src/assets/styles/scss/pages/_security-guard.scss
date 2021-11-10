@@ -1,0 +1,276 @@
+.sg-container {
+    background-color: #F2F4F8;
+    min-height: 100%;
+    padding: 6.25rem 1.813rem 1.25rem 1.813rem;
+}
+
+.sg-title {
+    color: #2D2A48;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.sg-list {
+    width: 100%;
+    font-size: 1.563rem;
+    border-collapse: separate !important;
+    border-spacing: 0;
+
+    thead {
+        color: #FFFFFF;
+        background-color: #13214E;
+
+        td {
+            padding: 1.25rem 0.938rem;
+        }
+
+        :first-child {
+            border-top-left-radius: 0.938rem;
+        }
+
+        :last-child {
+            border-top-right-radius: 0.938rem;
+        }
+    }
+
+    tbody {
+        color: #13214E;
+        background-color: #FFFFFF;
+        
+        td {
+            padding: 4.063rem 0.938rem;
+        }
+    }
+}
+
+.sg-list-close-head {
+    width: 1.875rem;
+}
+
+.sg-list-close-body {
+    padding-right: 0 !important;
+}
+
+.sg-list-btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 1.25rem;
+    margin: 0.25rem;
+    white-space: nowrap;
+    border: 0.125rem solid #13214E;
+    border-radius: 1.25rem;
+    text-align: center;
+    font-size: 1.563rem;
+
+    &.disabled {
+        cursor: default;
+        border: 0.125rem solid #AAA;
+        color: #AAA;
+    }
+}
+
+.sg-list-plate {
+    color: #3573DC;
+    cursor: pointer;
+}
+
+.sg-modal-input {
+    
+    max-width: 43.75rem;
+
+    .modal-content {
+        width: 43.75rem;
+        height: 25rem;
+    }
+}
+
+%sg-modal-btn {
+    font-size: 1.563rem;
+    cursor: pointer;
+    display: inline-block;
+    width: 9.375rem;
+    border: 0.125rem solid #13214E;
+    border-radius: 1.25rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sg-modal-btn-cancel {
+    @extend %sg-modal-btn;
+    color: #13214E;
+    margin-right: 3.75rem;
+}
+
+.sg-modal-btn-confirm {
+    @extend %sg-modal-btn;
+    color: #FFFFFF;
+    background-color: #13214E;
+}
+
+.sg-modal-input-input {
+    width: 26.438rem;
+    height: 4.75rem;
+    padding: 1.438rem 0.75rem;
+    font-size: 1.563rem;
+    background-color: #F2F4F8;
+    border: none;
+    outline: none;
+    border-radius: 0.625rem;
+}
+
+.sg-modal-input-wrap {
+    margin: 4.125rem 8.625rem;
+}
+
+.sg-modal-input-invalid {
+    color: #E61818;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.sg-modal-lot {
+    
+    max-width: 58.563rem;
+
+    .modal-content {
+        width: 58.563rem;
+        height: 40.438rem;
+    }
+
+    .shared-modal-content {
+        padding: 0 2.188rem 1rem 2.188rem 0.625
+    }
+}
+
+
+
+.sg-full {
+    text-align: right;
+    vertical-align: middle;
+    color: #2D2A48;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 3.063rem;
+    margin-right: 5rem;
+}
+
+.sg-full-btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 6rem;
+    border: 0.125rem solid #13214E;
+    border-radius: 1.25rem;
+    text-align: center;
+    font-size: 1.563rem;
+    vertical-align: text-top;
+    margin-left: 1rem;
+}
+
+.sg-modal-walkIn {
+
+    .modal-content {
+        height: 25rem;
+        transition: height 0.5s ease-in-out;
+    }
+
+    .shared-modal-content {
+        padding: 1.563rem 1rem 3.125rem 1rem !important;
+    }
+
+    p {
+        padding-top: 3.5rem;
+    }
+}
+
+.sg-modal-walkIn.true {
+
+    max-width: 50rem;
+
+    .modal-content {
+
+        transition: height 0.5s ease-in-out;
+        width: 50rem;
+        height: 35.813rem;
+    }
+
+    .shared-modal-content {
+        padding: 1.563rem 0 3.125rem 0 !important;
+    }
+
+    p {
+        padding-top: 0;
+    }
+}
+
+.sg-modal-walkIn.true.false {
+
+    .modal-content {
+        height: 25rem;
+        transition: height 0.5s ease-in-out;
+    }
+
+    .shared-modal-content {
+        padding: 1.563rem 1rem 3.125rem 1rem !important;
+    }
+
+    p {
+        padding-top: 1.5rem;
+    }
+}
+
+%sg-walkin-lot-card {
+    width: 7.5rem;
+    height: 7.5rem;
+    margin: 0.625rem;
+    padding:  0 0.938rem 0.625rem 0.938rem;
+    border-radius: 0.313rem;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 1.125rem;
+    color: #13214E;
+}
+
+.sg-walkin-lot-occupied {
+    @extend %sg-walkin-lot-card;
+    background-color: #E5E5E5;
+}
+
+.sg-walkin-lot-avail {
+    @extend %sg-walkin-lot-card;
+    background-color: #21C65A;
+    cursor: pointer;
+}
+
+.sg-walkin-lot-no {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 2.188rem;
+    text-align: left;
+}
+
+.sg-walkin-content-plate {
+    font-weight: bold;
+    white-space: nowrap;
+    max-width: 9.375rem;
+}
+
+.sg-modal-walkin-legend-wrap {
+    text-align: left;
+    color: #13214E;
+    font-size: 1.25rem;
+    margin: 0.625rem 3.5rem;
+}
+
+.sg-walkin-lot-wrap {
+    margin-top: 1rem;
+}
+
+.sg-modal-btn-wrap {
+    padding-top: 3.125rem;
+    text-align: center;
+}
+
+.sg-full-txt {
+    font-size: 2rem;
+    font-weight: bold;
+}
